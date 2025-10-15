@@ -56,7 +56,7 @@ header {
 header > p {
     padding-bottom: 0.5em;
     padding-top: 30px;
-    padding-left: 10px;
+    padding-left: 6px;;
     font-size: 20px;
     text-shadow: 3px 5px 19px rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -90,10 +90,13 @@ article > h2 {
 
 article > p {
     padding: 20px;
-    text-align: justify;
-    line-height: 1.6em; 
-    text-indent: 2em;
+text-align: justify;
+line-height: 1.8em; 
+text-indent: 2em;
 }
+
+
+
 
 
 p {
