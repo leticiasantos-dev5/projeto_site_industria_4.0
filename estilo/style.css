@@ -319,7 +319,7 @@ nav > a {
     padding: 12px 16px;
     border-radius: 8px;
     font-size: 1em;
-    background-color: transparent;
+    background-color: #780f9bac;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -462,4 +462,41 @@ footer {
     text-shadow: 1px 1px 3px var(--corzinza); 
     margin-top: 20px; 
     
+}
+
+.referencia-imagem {
+    /* Define o tamanho da fonte menor para um texto de crédito */
+    font-size: 0.9em;
+    
+    /* Centraliza o bloco e o texto */
+    margin: 10px auto 30px; 
+    text-align: center;
+    
+    /* Permite que o texto quebre em telas pequenas (responsividade) */
+    word-wrap: break-word; 
+    
+    /* Padding interno sutil */
+    padding: 5px 10px;
+    
+    /* Limita a largura em 95% para não encostar nas bordas */
+    max-width: 95%; 
+    
+    /* Adicionei 'display: block;' para garantir que o 'margin: auto' funcione */
+    display: block; 
+}
+
+/* Estilo para os links dentro das referências (se houver) */
+.referencia-imagem a {
+    color: var(--corzinzaclaro);
+    text-decoration: underline;
+    font-weight: bold;
+    word-break: break-word;
+}
+
+/* MEDIA QUERY: Ajustes para Celulares */
+@media (max-width: 600px) {
+    .referencia-imagem {
+        font-size: 0.85em;
+        padding: 5px;
+    }
 }
